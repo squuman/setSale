@@ -2,8 +2,8 @@
 require __DIR__ .'/vendor/autoload.php';
 
 $client = new \RetailCrm\ApiClient(
-    'https://kwc-japan.retailcrm.ru',
-    'wMybWd82P1tuhlEXqK1tUeLmn5o6dHSW',
+    'url',
+    'key',
     \RetailCrm\ApiClient::V5
 );
 
