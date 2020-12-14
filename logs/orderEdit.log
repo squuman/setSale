@@ -1,0 +1,2348 @@
+Array
+(
+    [date] => 2020-12-14 06:59:00
+    [data] => RetailCrm\Response\ApiResponse Object
+(
+    [statusCode:protected] => 200
+    [rawResponse:protected] => {"success":true,"id":39291,"order":{"slug":39291,"id":39291,"number":"39291C","externalId":"39800","orderType":"eshop-individual","orderMethod":"app","countryIso":"RU","createdAt":"2020-12-14 06:30:24","statusUpdatedAt":"2020-12-14 06:30:24","summ":5049,"totalSumm":5049,"prepaySum":0,"purchaseSumm":0,"markDatetime":"2020-12-14 06:30:24","firstName":"test","call":false,"expired":false,"customer":{"type":"customer","id":15915,"externalId":"24622","isContact":false,"createdAt":"2020-12-14 06:30:45","vip":false,"bad":false,"site":"www-kwc-japan-ru","tags":[],"marginSumm":0,"totalSumm":0,"averageSumm":0,"ordersCount":0,"customFields":{"promokod":"123456"},"personalDiscount":0,"address":{"id":15045,"countryIso":"RU"},"segments":[],"firstName":"test","email":"","phones":[]},"contact":{"type":"customer","id":15915,"externalId":"24622","isContact":false,"createdAt":"2020-12-14 06:30:45","vip":false,"bad":false,"site":"www-kwc-japan-ru","tags":[],"marginSumm":0,"totalSumm":0,"averageSumm":0,"ordersCount":0,"customFields":{"promokod":"123456"},"personalDiscount":0,"address":{"id":15045,"countryIso":"RU"},"segments":[],"firstName":"test","email":"","phones":[]},"contragent":{"contragentType":"individual"},"delivery":{"code":"dost-port-kyr","cost":0,"netCost":0,"address":{"countryIso":"RU","text":"Санкт-Петербург"}},"site":"www-kwc-japan-ru","status":"new","items":[{"markingCodes":[],"id":86871,"initialPrice":5940,"discountTotal":891,"vatRate":"none","createdAt":"2020-12-13 10:34:17","quantity":1,"status":"new","offer":{"displayName":"KWC Крем для кожи вокруг глаз","id":517,"externalId":"1813","xmlId":"1813","name":"KWC Крем для кожи вокруг глаз","vatRate":"none","unit":{"code":"pc","name":"Штука","sym":"шт."}},"properties":[],"purchasePrice":0}],"payments":{},"fromApi":false,"length":0,"width":0,"height":0,"shipped":false,"customFields":[]}}
+    [response:protected] => Array
+        (
+            [success] => 1
+            [id] => 39291
+            [order] => Array
+                (
+                    [slug] => 39291
+                    [id] => 39291
+                    [number] => 39291C
+                    [externalId] => 39800
+                    [orderType] => eshop-individual
+                    [orderMethod] => app
+                    [countryIso] => RU
+                    [createdAt] => 2020-12-14 06:30:24
+                    [statusUpdatedAt] => 2020-12-14 06:30:24
+                    [summ] => 5049
+                    [totalSumm] => 5049
+                    [prepaySum] => 0
+                    [purchaseSumm] => 0
+                    [markDatetime] => 2020-12-14 06:30:24
+                    [firstName] => test
+                    [call] => 
+                    [expired] => 
+                    [customer] => Array
+                        (
+                            [type] => customer
+                            [id] => 15915
+                            [externalId] => 24622
+                            [isContact] => 
+                            [createdAt] => 2020-12-14 06:30:45
+                            [vip] => 
+                            [bad] => 
+                            [site] => www-kwc-japan-ru
+                            [tags] => Array
+                                (
+                                )
+
+                            [marginSumm] => 0
+                            [totalSumm] => 0
+                            [averageSumm] => 0
+                            [ordersCount] => 0
+                            [customFields] => Array
+                                (
+                                    [promokod] => 123456
+                                )
+
+                            [personalDiscount] => 0
+                            [address] => Array
+                                (
+                                    [id] => 15045
+                                    [countryIso] => RU
+                                )
+
+                            [segments] => Array
+                                (
+                                )
+
+                            [firstName] => test
+                            [email] => 
+                            [phones] => Array
+                                (
+                                )
+
+                        )
+
+                    [contact] => Array
+                        (
+                            [type] => customer
+                            [id] => 15915
+                            [externalId] => 24622
+                            [isContact] => 
+                            [createdAt] => 2020-12-14 06:30:45
+                            [vip] => 
+                            [bad] => 
+                            [site] => www-kwc-japan-ru
+                            [tags] => Array
+                                (
+                                )
+
+                            [marginSumm] => 0
+                            [totalSumm] => 0
+                            [averageSumm] => 0
+                            [ordersCount] => 0
+                            [customFields] => Array
+                                (
+                                    [promokod] => 123456
+                                )
+
+                            [personalDiscount] => 0
+                            [address] => Array
+                                (
+                                    [id] => 15045
+                                    [countryIso] => RU
+                                )
+
+                            [segments] => Array
+                                (
+                                )
+
+                            [firstName] => test
+                            [email] => 
+                            [phones] => Array
+                                (
+                                )
+
+                        )
+
+                    [contragent] => Array
+                        (
+                            [contragentType] => individual
+                        )
+
+                    [delivery] => Array
+                        (
+                            [code] => dost-port-kyr
+                            [cost] => 0
+                            [netCost] => 0
+                            [address] => Array
+                                (
+                                    [countryIso] => RU
+                                    [text] => Санкт-Петербург
+                                )
+
+                        )
+
+                    [site] => www-kwc-japan-ru
+                    [status] => new
+                    [items] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [markingCodes] => Array
+                                        (
+                                        )
+
+                                    [id] => 86871
+                                    [initialPrice] => 5940
+                                    [discountTotal] => 891
+                                    [vatRate] => none
+                                    [createdAt] => 2020-12-13 10:34:17
+                                    [quantity] => 1
+                                    [status] => new
+                                    [offer] => Array
+                                        (
+                                            [displayName] => KWC Крем для кожи вокруг глаз
+                                            [id] => 517
+                                            [externalId] => 1813
+                                            [xmlId] => 1813
+                                            [name] => KWC Крем для кожи вокруг глаз
+                                            [vatRate] => none
+                                            [unit] => Array
+                                                (
+                                                    [code] => pc
+                                                    [name] => Штука
+                                                    [sym] => шт.
+                                                )
+
+                                        )
+
+                                    [properties] => Array
+                                        (
+                                        )
+
+                                    [purchasePrice] => 0
+                                )
+
+                        )
+
+                    [payments] => Array
+                        (
+                        )
+
+                    [fromApi] => 
+                    [length] => 0
+                    [width] => 0
+                    [height] => 0
+                    [shipped] => 
+                    [customFields] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+)
+
+)
+
+Array
+(
+    [date] => 2020-12-14 06:59:44
+    [data] => RetailCrm\Response\ApiResponse Object
+(
+    [statusCode:protected] => 200
+    [rawResponse:protected] => {"success":true,"id":39291,"order":{"slug":39291,"id":39291,"number":"39291C","externalId":"39800","orderType":"eshop-individual","orderMethod":"app","countryIso":"RU","createdAt":"2020-12-14 06:30:24","statusUpdatedAt":"2020-12-14 06:30:24","summ":5049,"totalSumm":5049,"prepaySum":0,"purchaseSumm":0,"markDatetime":"2020-12-14 06:30:24","firstName":"test","call":false,"expired":false,"customer":{"type":"customer","id":15915,"externalId":"24622","isContact":false,"createdAt":"2020-12-14 06:30:45","vip":false,"bad":false,"site":"www-kwc-japan-ru","tags":[],"marginSumm":0,"totalSumm":0,"averageSumm":0,"ordersCount":0,"customFields":{"promokod":"123456"},"personalDiscount":0,"address":{"id":15045,"countryIso":"RU"},"segments":[],"firstName":"test","email":"","phones":[]},"contact":{"type":"customer","id":15915,"externalId":"24622","isContact":false,"createdAt":"2020-12-14 06:30:45","vip":false,"bad":false,"site":"www-kwc-japan-ru","tags":[],"marginSumm":0,"totalSumm":0,"averageSumm":0,"ordersCount":0,"customFields":{"promokod":"123456"},"personalDiscount":0,"address":{"id":15045,"countryIso":"RU"},"segments":[],"firstName":"test","email":"","phones":[]},"contragent":{"contragentType":"individual"},"delivery":{"code":"dost-port-kyr","cost":0,"netCost":0,"address":{"countryIso":"RU","text":"Санкт-Петербург"}},"site":"www-kwc-japan-ru","status":"new","items":[{"markingCodes":[],"id":86871,"initialPrice":5940,"discountTotal":891,"vatRate":"none","createdAt":"2020-12-13 10:34:17","quantity":1,"status":"new","offer":{"displayName":"KWC Крем для кожи вокруг глаз","id":517,"externalId":"1813","xmlId":"1813","name":"KWC Крем для кожи вокруг глаз","vatRate":"none","unit":{"code":"pc","name":"Штука","sym":"шт."}},"properties":[],"purchasePrice":0}],"payments":{},"fromApi":false,"length":0,"width":0,"height":0,"shipped":false,"customFields":[]}}
+    [response:protected] => Array
+        (
+            [success] => 1
+            [id] => 39291
+            [order] => Array
+                (
+                    [slug] => 39291
+                    [id] => 39291
+                    [number] => 39291C
+                    [externalId] => 39800
+                    [orderType] => eshop-individual
+                    [orderMethod] => app
+                    [countryIso] => RU
+                    [createdAt] => 2020-12-14 06:30:24
+                    [statusUpdatedAt] => 2020-12-14 06:30:24
+                    [summ] => 5049
+                    [totalSumm] => 5049
+                    [prepaySum] => 0
+                    [purchaseSumm] => 0
+                    [markDatetime] => 2020-12-14 06:30:24
+                    [firstName] => test
+                    [call] => 
+                    [expired] => 
+                    [customer] => Array
+                        (
+                            [type] => customer
+                            [id] => 15915
+                            [externalId] => 24622
+                            [isContact] => 
+                            [createdAt] => 2020-12-14 06:30:45
+                            [vip] => 
+                            [bad] => 
+                            [site] => www-kwc-japan-ru
+                            [tags] => Array
+                                (
+                                )
+
+                            [marginSumm] => 0
+                            [totalSumm] => 0
+                            [averageSumm] => 0
+                            [ordersCount] => 0
+                            [customFields] => Array
+                                (
+                                    [promokod] => 123456
+                                )
+
+                            [personalDiscount] => 0
+                            [address] => Array
+                                (
+                                    [id] => 15045
+                                    [countryIso] => RU
+                                )
+
+                            [segments] => Array
+                                (
+                                )
+
+                            [firstName] => test
+                            [email] => 
+                            [phones] => Array
+                                (
+                                )
+
+                        )
+
+                    [contact] => Array
+                        (
+                            [type] => customer
+                            [id] => 15915
+                            [externalId] => 24622
+                            [isContact] => 
+                            [createdAt] => 2020-12-14 06:30:45
+                            [vip] => 
+                            [bad] => 
+                            [site] => www-kwc-japan-ru
+                            [tags] => Array
+                                (
+                                )
+
+                            [marginSumm] => 0
+                            [totalSumm] => 0
+                            [averageSumm] => 0
+                            [ordersCount] => 0
+                            [customFields] => Array
+                                (
+                                    [promokod] => 123456
+                                )
+
+                            [personalDiscount] => 0
+                            [address] => Array
+                                (
+                                    [id] => 15045
+                                    [countryIso] => RU
+                                )
+
+                            [segments] => Array
+                                (
+                                )
+
+                            [firstName] => test
+                            [email] => 
+                            [phones] => Array
+                                (
+                                )
+
+                        )
+
+                    [contragent] => Array
+                        (
+                            [contragentType] => individual
+                        )
+
+                    [delivery] => Array
+                        (
+                            [code] => dost-port-kyr
+                            [cost] => 0
+                            [netCost] => 0
+                            [address] => Array
+                                (
+                                    [countryIso] => RU
+                                    [text] => Санкт-Петербург
+                                )
+
+                        )
+
+                    [site] => www-kwc-japan-ru
+                    [status] => new
+                    [items] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [markingCodes] => Array
+                                        (
+                                        )
+
+                                    [id] => 86871
+                                    [initialPrice] => 5940
+                                    [discountTotal] => 891
+                                    [vatRate] => none
+                                    [createdAt] => 2020-12-13 10:34:17
+                                    [quantity] => 1
+                                    [status] => new
+                                    [offer] => Array
+                                        (
+                                            [displayName] => KWC Крем для кожи вокруг глаз
+                                            [id] => 517
+                                            [externalId] => 1813
+                                            [xmlId] => 1813
+                                            [name] => KWC Крем для кожи вокруг глаз
+                                            [vatRate] => none
+                                            [unit] => Array
+                                                (
+                                                    [code] => pc
+                                                    [name] => Штука
+                                                    [sym] => шт.
+                                                )
+
+                                        )
+
+                                    [properties] => Array
+                                        (
+                                        )
+
+                                    [purchasePrice] => 0
+                                )
+
+                        )
+
+                    [payments] => Array
+                        (
+                        )
+
+                    [fromApi] => 
+                    [length] => 0
+                    [width] => 0
+                    [height] => 0
+                    [shipped] => 
+                    [customFields] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+)
+
+)
+
+Array
+(
+    [date] => 2020-12-14 07:00:05
+    [data] => RetailCrm\Response\ApiResponse Object
+(
+    [statusCode:protected] => 200
+    [rawResponse:protected] => {"success":true,"id":39291,"order":{"slug":39291,"id":39291,"number":"39291C","externalId":"39800","orderType":"eshop-individual","orderMethod":"app","countryIso":"RU","createdAt":"2020-12-14 06:30:24","statusUpdatedAt":"2020-12-14 06:30:24","summ":4752,"totalSumm":4752,"prepaySum":0,"purchaseSumm":0,"markDatetime":"2020-12-14 06:30:24","firstName":"test","call":false,"expired":false,"customer":{"type":"customer","id":15915,"externalId":"24622","isContact":false,"createdAt":"2020-12-14 06:30:45","vip":false,"bad":false,"site":"www-kwc-japan-ru","tags":[],"marginSumm":0,"totalSumm":0,"averageSumm":0,"ordersCount":0,"customFields":{"promokod":"123456"},"personalDiscount":0,"address":{"id":15045,"countryIso":"RU"},"segments":[],"firstName":"test","email":"","phones":[]},"contact":{"type":"customer","id":15915,"externalId":"24622","isContact":false,"createdAt":"2020-12-14 06:30:45","vip":false,"bad":false,"site":"www-kwc-japan-ru","tags":[],"marginSumm":0,"totalSumm":0,"averageSumm":0,"ordersCount":0,"customFields":{"promokod":"123456"},"personalDiscount":0,"address":{"id":15045,"countryIso":"RU"},"segments":[],"firstName":"test","email":"","phones":[]},"contragent":{"contragentType":"individual"},"delivery":{"code":"dost-port-kyr","cost":0,"netCost":0,"address":{"countryIso":"RU","text":"Санкт-Петербург"}},"site":"www-kwc-japan-ru","status":"new","items":[{"markingCodes":[],"id":86871,"initialPrice":5940,"discountTotal":1188,"vatRate":"none","createdAt":"2020-12-13 10:34:17","quantity":1,"status":"new","offer":{"displayName":"KWC Крем для кожи вокруг глаз","id":517,"externalId":"1813","xmlId":"1813","name":"KWC Крем для кожи вокруг глаз","vatRate":"none","unit":{"code":"pc","name":"Штука","sym":"шт."}},"properties":[],"purchasePrice":0}],"payments":{},"fromApi":false,"length":0,"width":0,"height":0,"shipped":false,"customFields":[]}}
+    [response:protected] => Array
+        (
+            [success] => 1
+            [id] => 39291
+            [order] => Array
+                (
+                    [slug] => 39291
+                    [id] => 39291
+                    [number] => 39291C
+                    [externalId] => 39800
+                    [orderType] => eshop-individual
+                    [orderMethod] => app
+                    [countryIso] => RU
+                    [createdAt] => 2020-12-14 06:30:24
+                    [statusUpdatedAt] => 2020-12-14 06:30:24
+                    [summ] => 4752
+                    [totalSumm] => 4752
+                    [prepaySum] => 0
+                    [purchaseSumm] => 0
+                    [markDatetime] => 2020-12-14 06:30:24
+                    [firstName] => test
+                    [call] => 
+                    [expired] => 
+                    [customer] => Array
+                        (
+                            [type] => customer
+                            [id] => 15915
+                            [externalId] => 24622
+                            [isContact] => 
+                            [createdAt] => 2020-12-14 06:30:45
+                            [vip] => 
+                            [bad] => 
+                            [site] => www-kwc-japan-ru
+                            [tags] => Array
+                                (
+                                )
+
+                            [marginSumm] => 0
+                            [totalSumm] => 0
+                            [averageSumm] => 0
+                            [ordersCount] => 0
+                            [customFields] => Array
+                                (
+                                    [promokod] => 123456
+                                )
+
+                            [personalDiscount] => 0
+                            [address] => Array
+                                (
+                                    [id] => 15045
+                                    [countryIso] => RU
+                                )
+
+                            [segments] => Array
+                                (
+                                )
+
+                            [firstName] => test
+                            [email] => 
+                            [phones] => Array
+                                (
+                                )
+
+                        )
+
+                    [contact] => Array
+                        (
+                            [type] => customer
+                            [id] => 15915
+                            [externalId] => 24622
+                            [isContact] => 
+                            [createdAt] => 2020-12-14 06:30:45
+                            [vip] => 
+                            [bad] => 
+                            [site] => www-kwc-japan-ru
+                            [tags] => Array
+                                (
+                                )
+
+                            [marginSumm] => 0
+                            [totalSumm] => 0
+                            [averageSumm] => 0
+                            [ordersCount] => 0
+                            [customFields] => Array
+                                (
+                                    [promokod] => 123456
+                                )
+
+                            [personalDiscount] => 0
+                            [address] => Array
+                                (
+                                    [id] => 15045
+                                    [countryIso] => RU
+                                )
+
+                            [segments] => Array
+                                (
+                                )
+
+                            [firstName] => test
+                            [email] => 
+                            [phones] => Array
+                                (
+                                )
+
+                        )
+
+                    [contragent] => Array
+                        (
+                            [contragentType] => individual
+                        )
+
+                    [delivery] => Array
+                        (
+                            [code] => dost-port-kyr
+                            [cost] => 0
+                            [netCost] => 0
+                            [address] => Array
+                                (
+                                    [countryIso] => RU
+                                    [text] => Санкт-Петербург
+                                )
+
+                        )
+
+                    [site] => www-kwc-japan-ru
+                    [status] => new
+                    [items] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [markingCodes] => Array
+                                        (
+                                        )
+
+                                    [id] => 86871
+                                    [initialPrice] => 5940
+                                    [discountTotal] => 1188
+                                    [vatRate] => none
+                                    [createdAt] => 2020-12-13 10:34:17
+                                    [quantity] => 1
+                                    [status] => new
+                                    [offer] => Array
+                                        (
+                                            [displayName] => KWC Крем для кожи вокруг глаз
+                                            [id] => 517
+                                            [externalId] => 1813
+                                            [xmlId] => 1813
+                                            [name] => KWC Крем для кожи вокруг глаз
+                                            [vatRate] => none
+                                            [unit] => Array
+                                                (
+                                                    [code] => pc
+                                                    [name] => Штука
+                                                    [sym] => шт.
+                                                )
+
+                                        )
+
+                                    [properties] => Array
+                                        (
+                                        )
+
+                                    [purchasePrice] => 0
+                                )
+
+                        )
+
+                    [payments] => Array
+                        (
+                        )
+
+                    [fromApi] => 
+                    [length] => 0
+                    [width] => 0
+                    [height] => 0
+                    [shipped] => 
+                    [customFields] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+)
+
+)
+
+Array
+(
+    [date] => 2020-12-14 07:04:28
+    [data] => RetailCrm\Response\ApiResponse Object
+(
+    [statusCode:protected] => 400
+    [rawResponse:protected] => {"success":false,"errorMsg":"Invalid data \u002210\u0022(array), expected \u0022Intaro\\CRMApiBundle\\Entity\\SerializedOrderProduct\u0022."}
+    [response:protected] => Array
+        (
+            [success] => 
+            [errorMsg] => Invalid data "10"(array), expected "Intaro\CRMApiBundle\Entity\SerializedOrderProduct".
+        )
+
+)
+
+)
+
+Array
+(
+    [date] => 2020-12-14 07:05:10
+    [data] => RetailCrm\Response\ApiResponse Object
+(
+    [statusCode:protected] => 400
+    [rawResponse:protected] => {"success":false,"errorMsg":"Invalid data \u002210\u0022(array), expected \u0022Intaro\\CRMApiBundle\\Entity\\SerializedOrderProduct\u0022."}
+    [response:protected] => Array
+        (
+            [success] => 
+            [errorMsg] => Invalid data "10"(array), expected "Intaro\CRMApiBundle\Entity\SerializedOrderProduct".
+        )
+
+)
+
+)
+
+Array
+(
+    [date] => 2020-12-14 07:05:32
+    [data] => RetailCrm\Response\ApiResponse Object
+(
+    [statusCode:protected] => 400
+    [rawResponse:protected] => {"success":false,"errorMsg":"Invalid data \u002210\u0022(array), expected \u0022Intaro\\CRMApiBundle\\Entity\\SerializedOrderProduct\u0022."}
+    [response:protected] => Array
+        (
+            [success] => 
+            [errorMsg] => Invalid data "10"(array), expected "Intaro\CRMApiBundle\Entity\SerializedOrderProduct".
+        )
+
+)
+
+)
+
+Array
+(
+    [date] => 2020-12-14 07:06:16
+    [data] => RetailCrm\Response\ApiResponse Object
+(
+    [statusCode:protected] => 200
+    [rawResponse:protected] => {"success":true,"id":39292,"order":{"slug":39292,"id":39292,"number":"39292C","externalId":"39801","orderType":"eshop-individual","orderMethod":"app","countryIso":"RU","createdAt":"2020-12-14 07:00:41","statusUpdatedAt":"2020-12-14 07:00:41","summ":15031.1,"totalSumm":15031.1,"prepaySum":0,"purchaseSumm":0,"markDatetime":"2020-12-14 07:00:41","firstName":"test","call":false,"expired":false,"customer":{"type":"customer","id":15917,"externalId":"24623","isContact":false,"createdAt":"2020-12-14 07:00:49","vip":false,"bad":false,"site":"www-kwc-japan-ru","tags":[],"marginSumm":0,"totalSumm":0,"averageSumm":0,"ordersCount":0,"customFields":{"promokod":"12345"},"personalDiscount":0,"address":{"id":15047,"countryIso":"RU"},"segments":[],"firstName":"test","email":"","phones":[]},"contact":{"type":"customer","id":15917,"externalId":"24623","isContact":false,"createdAt":"2020-12-14 07:00:49","vip":false,"bad":false,"site":"www-kwc-japan-ru","tags":[],"marginSumm":0,"totalSumm":0,"averageSumm":0,"ordersCount":0,"customFields":{"promokod":"12345"},"personalDiscount":0,"address":{"id":15047,"countryIso":"RU"},"segments":[],"firstName":"test","email":"","phones":[]},"contragent":{"contragentType":"individual"},"delivery":{"code":"dost-port-kyr","cost":0,"netCost":0,"address":{"countryIso":"RU","text":"Санкт-Петербург"}},"site":"www-kwc-japan-ru","status":"new","items":[{"markingCodes":[],"id":86874,"initialPrice":6700,"discountTotal":335,"vatRate":"none","createdAt":"2020-12-13 10:34:17","quantity":1,"status":"new","offer":{"displayName":"KWC Лёгкий крем для лица","id":738,"externalId":"5796","xmlId":"5796","name":"KWC Лёгкий крем для лица","vatRate":"none","unit":{"code":"pc","name":"Штука","sym":"шт."}},"properties":[],"purchasePrice":0},{"markingCodes":[],"id":86875,"initialPrice":5940,"discountTotal":594,"vatRate":"none","createdAt":"2020-12-13 10:34:17","quantity":1,"status":"new","offer":{"displayName":"KWC Крем для кожи вокруг глаз","id":517,"externalId":"1813","xmlId":"1813","name":"KWC Крем для кожи вокруг глаз","vatRate":"none","unit":{"code":"pc","name":"Штука","sym":"шт."}},"properties":[],"purchasePrice":0},{"markingCodes":[],"id":86876,"initialPrice":449,"discountTotal":44.9,"vatRate":"none","createdAt":"2020-12-13 10:34:17","quantity":1,"status":"new","offer":{"displayName":"Набор пробников Термогеля для глубокого очищения","id":825,"externalId":"9606","xmlId":"9606","name":"Набор пробников Термогеля для глубокого очищения","vatRate":"none","unit":{"code":"pc","name":"Штука","sym":"шт."}},"properties":[],"purchasePrice":0},{"markingCodes":[],"id":86877,"initialPrice":230,"discountTotal":23,"vatRate":"none","createdAt":"2020-12-14 07:03:06","quantity":1,"status":"new","offer":{"displayName":"Банка для хранения коллагена","id":676,"externalId":"2906","xmlId":"2906","name":"Банка для хранения коллагена","vatRate":"none","unit":{"code":"pc","name":"Штука","sym":"шт."}},"properties":[],"purchasePrice":0},{"markingCodes":[],"id":86878,"initialPrice":2360,"discountTotal":236,"vatRate":"none","createdAt":"2020-12-14 07:03:06","quantity":1,"status":"new","offer":{"displayName":"KWC 3D Коллагеновая маска для лица и шеи СПЕЦЦЕНА!","id":933,"externalId":"14456","xmlId":"14456","name":"KWC 3D Коллагеновая маска для лица и шеи СПЕЦЦЕНА!","vatRate":"none","unit":{"code":"pc","name":"Штука","sym":"шт."}},"properties":[],"purchasePrice":0},{"markingCodes":[],"id":86879,"initialPrice":170,"discountTotal":17,"vatRate":"none","createdAt":"2020-12-14 07:03:06","quantity":1,"status":"new","offer":{"displayName":"Таблетница","id":621,"externalId":"2048","xmlId":"2048","name":"Таблетница","vatRate":"none","unit":{"code":"pc","name":"Штука","sym":"шт."}},"properties":[],"purchasePrice":0},{"markingCodes":[],"id":86880,"initialPrice":480,"discountTotal":48,"vatRate":"none","createdAt":"2020-12-14 07:03:06","quantity":1,"status":"new","offer":{"displayName":"KWC Матирующие салфетки","id":724,"externalId":"4583","xmlId":"4583","name":"KWC Матирующие салфетки","vatRate":"none","unit":{"code":"pc","name":"Штука","sym":"шт."}},"properties":[],"purchasePrice":0}],"payments":{},"fromApi":false,"length":0,"width":0,"height":0,"shipped":false,"customFields":[]}}
+    [response:protected] => Array
+        (
+            [success] => 1
+            [id] => 39292
+            [order] => Array
+                (
+                    [slug] => 39292
+                    [id] => 39292
+                    [number] => 39292C
+                    [externalId] => 39801
+                    [orderType] => eshop-individual
+                    [orderMethod] => app
+                    [countryIso] => RU
+                    [createdAt] => 2020-12-14 07:00:41
+                    [statusUpdatedAt] => 2020-12-14 07:00:41
+                    [summ] => 15031.1
+                    [totalSumm] => 15031.1
+                    [prepaySum] => 0
+                    [purchaseSumm] => 0
+                    [markDatetime] => 2020-12-14 07:00:41
+                    [firstName] => test
+                    [call] => 
+                    [expired] => 
+                    [customer] => Array
+                        (
+                            [type] => customer
+                            [id] => 15917
+                            [externalId] => 24623
+                            [isContact] => 
+                            [createdAt] => 2020-12-14 07:00:49
+                            [vip] => 
+                            [bad] => 
+                            [site] => www-kwc-japan-ru
+                            [tags] => Array
+                                (
+                                )
+
+                            [marginSumm] => 0
+                            [totalSumm] => 0
+                            [averageSumm] => 0
+                            [ordersCount] => 0
+                            [customFields] => Array
+                                (
+                                    [promokod] => 12345
+                                )
+
+                            [personalDiscount] => 0
+                            [address] => Array
+                                (
+                                    [id] => 15047
+                                    [countryIso] => RU
+                                )
+
+                            [segments] => Array
+                                (
+                                )
+
+                            [firstName] => test
+                            [email] => 
+                            [phones] => Array
+                                (
+                                )
+
+                        )
+
+                    [contact] => Array
+                        (
+                            [type] => customer
+                            [id] => 15917
+                            [externalId] => 24623
+                            [isContact] => 
+                            [createdAt] => 2020-12-14 07:00:49
+                            [vip] => 
+                            [bad] => 
+                            [site] => www-kwc-japan-ru
+                            [tags] => Array
+                                (
+                                )
+
+                            [marginSumm] => 0
+                            [totalSumm] => 0
+                            [averageSumm] => 0
+                            [ordersCount] => 0
+                            [customFields] => Array
+                                (
+                                    [promokod] => 12345
+                                )
+
+                            [personalDiscount] => 0
+                            [address] => Array
+                                (
+                                    [id] => 15047
+                                    [countryIso] => RU
+                                )
+
+                            [segments] => Array
+                                (
+                                )
+
+                            [firstName] => test
+                            [email] => 
+                            [phones] => Array
+                                (
+                                )
+
+                        )
+
+                    [contragent] => Array
+                        (
+                            [contragentType] => individual
+                        )
+
+                    [delivery] => Array
+                        (
+                            [code] => dost-port-kyr
+                            [cost] => 0
+                            [netCost] => 0
+                            [address] => Array
+                                (
+                                    [countryIso] => RU
+                                    [text] => Санкт-Петербург
+                                )
+
+                        )
+
+                    [site] => www-kwc-japan-ru
+                    [status] => new
+                    [items] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [markingCodes] => Array
+                                        (
+                                        )
+
+                                    [id] => 86874
+                                    [initialPrice] => 6700
+                                    [discountTotal] => 335
+                                    [vatRate] => none
+                                    [createdAt] => 2020-12-13 10:34:17
+                                    [quantity] => 1
+                                    [status] => new
+                                    [offer] => Array
+                                        (
+                                            [displayName] => KWC Лёгкий крем для лица
+                                            [id] => 738
+                                            [externalId] => 5796
+                                            [xmlId] => 5796
+                                            [name] => KWC Лёгкий крем для лица
+                                            [vatRate] => none
+                                            [unit] => Array
+                                                (
+                                                    [code] => pc
+                                                    [name] => Штука
+                                                    [sym] => шт.
+                                                )
+
+                                        )
+
+                                    [properties] => Array
+                                        (
+                                        )
+
+                                    [purchasePrice] => 0
+                                )
+
+                            [1] => Array
+                                (
+                                    [markingCodes] => Array
+                                        (
+                                        )
+
+                                    [id] => 86875
+                                    [initialPrice] => 5940
+                                    [discountTotal] => 594
+                                    [vatRate] => none
+                                    [createdAt] => 2020-12-13 10:34:17
+                                    [quantity] => 1
+                                    [status] => new
+                                    [offer] => Array
+                                        (
+                                            [displayName] => KWC Крем для кожи вокруг глаз
+                                            [id] => 517
+                                            [externalId] => 1813
+                                            [xmlId] => 1813
+                                            [name] => KWC Крем для кожи вокруг глаз
+                                            [vatRate] => none
+                                            [unit] => Array
+                                                (
+                                                    [code] => pc
+                                                    [name] => Штука
+                                                    [sym] => шт.
+                                                )
+
+                                        )
+
+                                    [properties] => Array
+                                        (
+                                        )
+
+                                    [purchasePrice] => 0
+                                )
+
+                            [2] => Array
+                                (
+                                    [markingCodes] => Array
+                                        (
+                                        )
+
+                                    [id] => 86876
+                                    [initialPrice] => 449
+                                    [discountTotal] => 44.9
+                                    [vatRate] => none
+                                    [createdAt] => 2020-12-13 10:34:17
+                                    [quantity] => 1
+                                    [status] => new
+                                    [offer] => Array
+                                        (
+                                            [displayName] => Набор пробников Термогеля для глубокого очищения
+                                            [id] => 825
+                                            [externalId] => 9606
+                                            [xmlId] => 9606
+                                            [name] => Набор пробников Термогеля для глубокого очищения
+                                            [vatRate] => none
+                                            [unit] => Array
+                                                (
+                                                    [code] => pc
+                                                    [name] => Штука
+                                                    [sym] => шт.
+                                                )
+
+                                        )
+
+                                    [properties] => Array
+                                        (
+                                        )
+
+                                    [purchasePrice] => 0
+                                )
+
+                            [3] => Array
+                                (
+                                    [markingCodes] => Array
+                                        (
+                                        )
+
+                                    [id] => 86877
+                                    [initialPrice] => 230
+                                    [discountTotal] => 23
+                                    [vatRate] => none
+                                    [createdAt] => 2020-12-14 07:03:06
+                                    [quantity] => 1
+                                    [status] => new
+                                    [offer] => Array
+                                        (
+                                            [displayName] => Банка для хранения коллагена
+                                            [id] => 676
+                                            [externalId] => 2906
+                                            [xmlId] => 2906
+                                            [name] => Банка для хранения коллагена
+                                            [vatRate] => none
+                                            [unit] => Array
+                                                (
+                                                    [code] => pc
+                                                    [name] => Штука
+                                                    [sym] => шт.
+                                                )
+
+                                        )
+
+                                    [properties] => Array
+                                        (
+                                        )
+
+                                    [purchasePrice] => 0
+                                )
+
+                            [4] => Array
+                                (
+                                    [markingCodes] => Array
+                                        (
+                                        )
+
+                                    [id] => 86878
+                                    [initialPrice] => 2360
+                                    [discountTotal] => 236
+                                    [vatRate] => none
+                                    [createdAt] => 2020-12-14 07:03:06
+                                    [quantity] => 1
+                                    [status] => new
+                                    [offer] => Array
+                                        (
+                                            [displayName] => KWC 3D Коллагеновая маска для лица и шеи СПЕЦЦЕНА!
+                                            [id] => 933
+                                            [externalId] => 14456
+                                            [xmlId] => 14456
+                                            [name] => KWC 3D Коллагеновая маска для лица и шеи СПЕЦЦЕНА!
+                                            [vatRate] => none
+                                            [unit] => Array
+                                                (
+                                                    [code] => pc
+                                                    [name] => Штука
+                                                    [sym] => шт.
+                                                )
+
+                                        )
+
+                                    [properties] => Array
+                                        (
+                                        )
+
+                                    [purchasePrice] => 0
+                                )
+
+                            [5] => Array
+                                (
+                                    [markingCodes] => Array
+                                        (
+                                        )
+
+                                    [id] => 86879
+                                    [initialPrice] => 170
+                                    [discountTotal] => 17
+                                    [vatRate] => none
+                                    [createdAt] => 2020-12-14 07:03:06
+                                    [quantity] => 1
+                                    [status] => new
+                                    [offer] => Array
+                                        (
+                                            [displayName] => Таблетница
+                                            [id] => 621
+                                            [externalId] => 2048
+                                            [xmlId] => 2048
+                                            [name] => Таблетница
+                                            [vatRate] => none
+                                            [unit] => Array
+                                                (
+                                                    [code] => pc
+                                                    [name] => Штука
+                                                    [sym] => шт.
+                                                )
+
+                                        )
+
+                                    [properties] => Array
+                                        (
+                                        )
+
+                                    [purchasePrice] => 0
+                                )
+
+                            [6] => Array
+                                (
+                                    [markingCodes] => Array
+                                        (
+                                        )
+
+                                    [id] => 86880
+                                    [initialPrice] => 480
+                                    [discountTotal] => 48
+                                    [vatRate] => none
+                                    [createdAt] => 2020-12-14 07:03:06
+                                    [quantity] => 1
+                                    [status] => new
+                                    [offer] => Array
+                                        (
+                                            [displayName] => KWC Матирующие салфетки
+                                            [id] => 724
+                                            [externalId] => 4583
+                                            [xmlId] => 4583
+                                            [name] => KWC Матирующие салфетки
+                                            [vatRate] => none
+                                            [unit] => Array
+                                                (
+                                                    [code] => pc
+                                                    [name] => Штука
+                                                    [sym] => шт.
+                                                )
+
+                                        )
+
+                                    [properties] => Array
+                                        (
+                                        )
+
+                                    [purchasePrice] => 0
+                                )
+
+                        )
+
+                    [payments] => Array
+                        (
+                        )
+
+                    [fromApi] => 
+                    [length] => 0
+                    [width] => 0
+                    [height] => 0
+                    [shipped] => 
+                    [customFields] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+)
+
+)
+
+Array
+(
+    [date] => 2020-12-14 07:07:28
+    [data] => RetailCrm\Response\ApiResponse Object
+(
+    [statusCode:protected] => 200
+    [rawResponse:protected] => {"success":true,"id":39292,"order":{"slug":39292,"id":39292,"number":"39292C","externalId":"39801","orderType":"eshop-individual","orderMethod":"app","countryIso":"RU","createdAt":"2020-12-14 07:00:41","statusUpdatedAt":"2020-12-14 07:00:41","summ":15352,"totalSumm":15352,"prepaySum":0,"purchaseSumm":0,"markDatetime":"2020-12-14 07:00:41","firstName":"test","call":false,"expired":false,"customer":{"type":"customer","id":15917,"externalId":"24623","isContact":false,"createdAt":"2020-12-14 07:00:49","vip":false,"bad":false,"site":"www-kwc-japan-ru","tags":[],"marginSumm":0,"totalSumm":0,"averageSumm":0,"ordersCount":0,"customFields":{"promokod":"12345"},"personalDiscount":0,"address":{"id":15047,"countryIso":"RU"},"segments":[],"firstName":"test","email":"","phones":[]},"contact":{"type":"customer","id":15917,"externalId":"24623","isContact":false,"createdAt":"2020-12-14 07:00:49","vip":false,"bad":false,"site":"www-kwc-japan-ru","tags":[],"marginSumm":0,"totalSumm":0,"averageSumm":0,"ordersCount":0,"customFields":{"promokod":"12345"},"personalDiscount":0,"address":{"id":15047,"countryIso":"RU"},"segments":[],"firstName":"test","email":"","phones":[]},"contragent":{"contragentType":"individual"},"delivery":{"code":"dost-port-kyr","cost":0,"netCost":0,"address":{"countryIso":"RU","text":"Санкт-Петербург"}},"site":"www-kwc-japan-ru","status":"new","items":[{"markingCodes":[],"id":86874,"initialPrice":6700,"discountTotal":335,"vatRate":"none","createdAt":"2020-12-13 10:34:17","quantity":1,"status":"new","offer":{"displayName":"KWC Лёгкий крем для лица","id":738,"externalId":"5796","xmlId":"5796","name":"KWC Лёгкий крем для лица","vatRate":"none","unit":{"code":"pc","name":"Штука","sym":"шт."}},"properties":[],"purchasePrice":0},{"markingCodes":[],"id":86875,"initialPrice":5940,"discountTotal":594,"vatRate":"none","createdAt":"2020-12-13 10:34:17","quantity":1,"status":"new","offer":{"displayName":"KWC Крем для кожи вокруг глаз","id":517,"externalId":"1813","xmlId":"1813","name":"KWC Крем для кожи вокруг глаз","vatRate":"none","unit":{"code":"pc","name":"Штука","sym":"шт."}},"properties":[],"purchasePrice":0},{"markingCodes":[],"id":86876,"initialPrice":449,"discountTotal":0,"vatRate":"none","createdAt":"2020-12-13 10:34:17","quantity":1,"status":"new","offer":{"displayName":"Набор пробников Термогеля для глубокого очищения","id":825,"externalId":"9606","xmlId":"9606","name":"Набор пробников Термогеля для глубокого очищения","vatRate":"none","unit":{"code":"pc","name":"Штука","sym":"шт."}},"properties":[],"purchasePrice":0},{"markingCodes":[],"id":86877,"initialPrice":230,"discountTotal":0,"vatRate":"none","createdAt":"2020-12-14 07:03:06","quantity":1,"status":"new","offer":{"displayName":"Банка для хранения коллагена","id":676,"externalId":"2906","xmlId":"2906","name":"Банка для хранения коллагена","vatRate":"none","unit":{"code":"pc","name":"Штука","sym":"шт."}},"properties":[],"purchasePrice":0},{"markingCodes":[],"id":86878,"initialPrice":2360,"discountTotal":0,"vatRate":"none","createdAt":"2020-12-14 07:03:06","quantity":1,"status":"new","offer":{"displayName":"KWC 3D Коллагеновая маска для лица и шеи СПЕЦЦЕНА!","id":933,"externalId":"14456","xmlId":"14456","name":"KWC 3D Коллагеновая маска для лица и шеи СПЕЦЦЕНА!","vatRate":"none","unit":{"code":"pc","name":"Штука","sym":"шт."}},"properties":[],"purchasePrice":0},{"markingCodes":[],"id":86879,"initialPrice":170,"discountTotal":0,"vatRate":"none","createdAt":"2020-12-14 07:03:06","quantity":1,"status":"new","offer":{"displayName":"Таблетница","id":621,"externalId":"2048","xmlId":"2048","name":"Таблетница","vatRate":"none","unit":{"code":"pc","name":"Штука","sym":"шт."}},"properties":[],"purchasePrice":0},{"markingCodes":[],"id":86880,"initialPrice":480,"discountTotal":48,"vatRate":"none","createdAt":"2020-12-14 07:03:06","quantity":1,"status":"new","offer":{"displayName":"KWC Матирующие салфетки","id":724,"externalId":"4583","xmlId":"4583","name":"KWC Матирующие салфетки","vatRate":"none","unit":{"code":"pc","name":"Штука","sym":"шт."}},"properties":[],"purchasePrice":0}],"payments":{},"fromApi":false,"length":0,"width":0,"height":0,"shipped":false,"customFields":[]}}
+    [response:protected] => Array
+        (
+            [success] => 1
+            [id] => 39292
+            [order] => Array
+                (
+                    [slug] => 39292
+                    [id] => 39292
+                    [number] => 39292C
+                    [externalId] => 39801
+                    [orderType] => eshop-individual
+                    [orderMethod] => app
+                    [countryIso] => RU
+                    [createdAt] => 2020-12-14 07:00:41
+                    [statusUpdatedAt] => 2020-12-14 07:00:41
+                    [summ] => 15352
+                    [totalSumm] => 15352
+                    [prepaySum] => 0
+                    [purchaseSumm] => 0
+                    [markDatetime] => 2020-12-14 07:00:41
+                    [firstName] => test
+                    [call] => 
+                    [expired] => 
+                    [customer] => Array
+                        (
+                            [type] => customer
+                            [id] => 15917
+                            [externalId] => 24623
+                            [isContact] => 
+                            [createdAt] => 2020-12-14 07:00:49
+                            [vip] => 
+                            [bad] => 
+                            [site] => www-kwc-japan-ru
+                            [tags] => Array
+                                (
+                                )
+
+                            [marginSumm] => 0
+                            [totalSumm] => 0
+                            [averageSumm] => 0
+                            [ordersCount] => 0
+                            [customFields] => Array
+                                (
+                                    [promokod] => 12345
+                                )
+
+                            [personalDiscount] => 0
+                            [address] => Array
+                                (
+                                    [id] => 15047
+                                    [countryIso] => RU
+                                )
+
+                            [segments] => Array
+                                (
+                                )
+
+                            [firstName] => test
+                            [email] => 
+                            [phones] => Array
+                                (
+                                )
+
+                        )
+
+                    [contact] => Array
+                        (
+                            [type] => customer
+                            [id] => 15917
+                            [externalId] => 24623
+                            [isContact] => 
+                            [createdAt] => 2020-12-14 07:00:49
+                            [vip] => 
+                            [bad] => 
+                            [site] => www-kwc-japan-ru
+                            [tags] => Array
+                                (
+                                )
+
+                            [marginSumm] => 0
+                            [totalSumm] => 0
+                            [averageSumm] => 0
+                            [ordersCount] => 0
+                            [customFields] => Array
+                                (
+                                    [promokod] => 12345
+                                )
+
+                            [personalDiscount] => 0
+                            [address] => Array
+                                (
+                                    [id] => 15047
+                                    [countryIso] => RU
+                                )
+
+                            [segments] => Array
+                                (
+                                )
+
+                            [firstName] => test
+                            [email] => 
+                            [phones] => Array
+                                (
+                                )
+
+                        )
+
+                    [contragent] => Array
+                        (
+                            [contragentType] => individual
+                        )
+
+                    [delivery] => Array
+                        (
+                            [code] => dost-port-kyr
+                            [cost] => 0
+                            [netCost] => 0
+                            [address] => Array
+                                (
+                                    [countryIso] => RU
+                                    [text] => Санкт-Петербург
+                                )
+
+                        )
+
+                    [site] => www-kwc-japan-ru
+                    [status] => new
+                    [items] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [markingCodes] => Array
+                                        (
+                                        )
+
+                                    [id] => 86874
+                                    [initialPrice] => 6700
+                                    [discountTotal] => 335
+                                    [vatRate] => none
+                                    [createdAt] => 2020-12-13 10:34:17
+                                    [quantity] => 1
+                                    [status] => new
+                                    [offer] => Array
+                                        (
+                                            [displayName] => KWC Лёгкий крем для лица
+                                            [id] => 738
+                                            [externalId] => 5796
+                                            [xmlId] => 5796
+                                            [name] => KWC Лёгкий крем для лица
+                                            [vatRate] => none
+                                            [unit] => Array
+                                                (
+                                                    [code] => pc
+                                                    [name] => Штука
+                                                    [sym] => шт.
+                                                )
+
+                                        )
+
+                                    [properties] => Array
+                                        (
+                                        )
+
+                                    [purchasePrice] => 0
+                                )
+
+                            [1] => Array
+                                (
+                                    [markingCodes] => Array
+                                        (
+                                        )
+
+                                    [id] => 86875
+                                    [initialPrice] => 5940
+                                    [discountTotal] => 594
+                                    [vatRate] => none
+                                    [createdAt] => 2020-12-13 10:34:17
+                                    [quantity] => 1
+                                    [status] => new
+                                    [offer] => Array
+                                        (
+                                            [displayName] => KWC Крем для кожи вокруг глаз
+                                            [id] => 517
+                                            [externalId] => 1813
+                                            [xmlId] => 1813
+                                            [name] => KWC Крем для кожи вокруг глаз
+                                            [vatRate] => none
+                                            [unit] => Array
+                                                (
+                                                    [code] => pc
+                                                    [name] => Штука
+                                                    [sym] => шт.
+                                                )
+
+                                        )
+
+                                    [properties] => Array
+                                        (
+                                        )
+
+                                    [purchasePrice] => 0
+                                )
+
+                            [2] => Array
+                                (
+                                    [markingCodes] => Array
+                                        (
+                                        )
+
+                                    [id] => 86876
+                                    [initialPrice] => 449
+                                    [discountTotal] => 0
+                                    [vatRate] => none
+                                    [createdAt] => 2020-12-13 10:34:17
+                                    [quantity] => 1
+                                    [status] => new
+                                    [offer] => Array
+                                        (
+                                            [displayName] => Набор пробников Термогеля для глубокого очищения
+                                            [id] => 825
+                                            [externalId] => 9606
+                                            [xmlId] => 9606
+                                            [name] => Набор пробников Термогеля для глубокого очищения
+                                            [vatRate] => none
+                                            [unit] => Array
+                                                (
+                                                    [code] => pc
+                                                    [name] => Штука
+                                                    [sym] => шт.
+                                                )
+
+                                        )
+
+                                    [properties] => Array
+                                        (
+                                        )
+
+                                    [purchasePrice] => 0
+                                )
+
+                            [3] => Array
+                                (
+                                    [markingCodes] => Array
+                                        (
+                                        )
+
+                                    [id] => 86877
+                                    [initialPrice] => 230
+                                    [discountTotal] => 0
+                                    [vatRate] => none
+                                    [createdAt] => 2020-12-14 07:03:06
+                                    [quantity] => 1
+                                    [status] => new
+                                    [offer] => Array
+                                        (
+                                            [displayName] => Банка для хранения коллагена
+                                            [id] => 676
+                                            [externalId] => 2906
+                                            [xmlId] => 2906
+                                            [name] => Банка для хранения коллагена
+                                            [vatRate] => none
+                                            [unit] => Array
+                                                (
+                                                    [code] => pc
+                                                    [name] => Штука
+                                                    [sym] => шт.
+                                                )
+
+                                        )
+
+                                    [properties] => Array
+                                        (
+                                        )
+
+                                    [purchasePrice] => 0
+                                )
+
+                            [4] => Array
+                                (
+                                    [markingCodes] => Array
+                                        (
+                                        )
+
+                                    [id] => 86878
+                                    [initialPrice] => 2360
+                                    [discountTotal] => 0
+                                    [vatRate] => none
+                                    [createdAt] => 2020-12-14 07:03:06
+                                    [quantity] => 1
+                                    [status] => new
+                                    [offer] => Array
+                                        (
+                                            [displayName] => KWC 3D Коллагеновая маска для лица и шеи СПЕЦЦЕНА!
+                                            [id] => 933
+                                            [externalId] => 14456
+                                            [xmlId] => 14456
+                                            [name] => KWC 3D Коллагеновая маска для лица и шеи СПЕЦЦЕНА!
+                                            [vatRate] => none
+                                            [unit] => Array
+                                                (
+                                                    [code] => pc
+                                                    [name] => Штука
+                                                    [sym] => шт.
+                                                )
+
+                                        )
+
+                                    [properties] => Array
+                                        (
+                                        )
+
+                                    [purchasePrice] => 0
+                                )
+
+                            [5] => Array
+                                (
+                                    [markingCodes] => Array
+                                        (
+                                        )
+
+                                    [id] => 86879
+                                    [initialPrice] => 170
+                                    [discountTotal] => 0
+                                    [vatRate] => none
+                                    [createdAt] => 2020-12-14 07:03:06
+                                    [quantity] => 1
+                                    [status] => new
+                                    [offer] => Array
+                                        (
+                                            [displayName] => Таблетница
+                                            [id] => 621
+                                            [externalId] => 2048
+                                            [xmlId] => 2048
+                                            [name] => Таблетница
+                                            [vatRate] => none
+                                            [unit] => Array
+                                                (
+                                                    [code] => pc
+                                                    [name] => Штука
+                                                    [sym] => шт.
+                                                )
+
+                                        )
+
+                                    [properties] => Array
+                                        (
+                                        )
+
+                                    [purchasePrice] => 0
+                                )
+
+                            [6] => Array
+                                (
+                                    [markingCodes] => Array
+                                        (
+                                        )
+
+                                    [id] => 86880
+                                    [initialPrice] => 480
+                                    [discountTotal] => 48
+                                    [vatRate] => none
+                                    [createdAt] => 2020-12-14 07:03:06
+                                    [quantity] => 1
+                                    [status] => new
+                                    [offer] => Array
+                                        (
+                                            [displayName] => KWC Матирующие салфетки
+                                            [id] => 724
+                                            [externalId] => 4583
+                                            [xmlId] => 4583
+                                            [name] => KWC Матирующие салфетки
+                                            [vatRate] => none
+                                            [unit] => Array
+                                                (
+                                                    [code] => pc
+                                                    [name] => Штука
+                                                    [sym] => шт.
+                                                )
+
+                                        )
+
+                                    [properties] => Array
+                                        (
+                                        )
+
+                                    [purchasePrice] => 0
+                                )
+
+                        )
+
+                    [payments] => Array
+                        (
+                        )
+
+                    [fromApi] => 
+                    [length] => 0
+                    [width] => 0
+                    [height] => 0
+                    [shipped] => 
+                    [customFields] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+)
+
+)
+
+Array
+(
+    [date] => 2020-12-14 07:07:58
+    [data] => RetailCrm\Response\ApiResponse Object
+(
+    [statusCode:protected] => 200
+    [rawResponse:protected] => {"success":true,"id":39292,"order":{"slug":39292,"id":39292,"number":"39292C","externalId":"39801","orderType":"eshop-individual","orderMethod":"app","countryIso":"RU","createdAt":"2020-12-14 07:00:41","statusUpdatedAt":"2020-12-14 07:00:41","summ":15400,"totalSumm":15400,"prepaySum":0,"purchaseSumm":0,"markDatetime":"2020-12-14 07:00:41","firstName":"test","call":false,"expired":false,"customer":{"type":"customer","id":15917,"externalId":"24623","isContact":false,"createdAt":"2020-12-14 07:00:49","vip":false,"bad":false,"site":"www-kwc-japan-ru","tags":[],"marginSumm":0,"totalSumm":0,"averageSumm":0,"ordersCount":0,"customFields":{"promokod":"12345"},"personalDiscount":0,"address":{"id":15047,"countryIso":"RU"},"segments":[],"firstName":"test","email":"","phones":[]},"contact":{"type":"customer","id":15917,"externalId":"24623","isContact":false,"createdAt":"2020-12-14 07:00:49","vip":false,"bad":false,"site":"www-kwc-japan-ru","tags":[],"marginSumm":0,"totalSumm":0,"averageSumm":0,"ordersCount":0,"customFields":{"promokod":"12345"},"personalDiscount":0,"address":{"id":15047,"countryIso":"RU"},"segments":[],"firstName":"test","email":"","phones":[]},"contragent":{"contragentType":"individual"},"delivery":{"code":"dost-port-kyr","cost":0,"netCost":0,"address":{"countryIso":"RU","text":"Санкт-Петербург"}},"site":"www-kwc-japan-ru","status":"new","items":[{"markingCodes":[],"id":86874,"initialPrice":6700,"discountTotal":335,"vatRate":"none","createdAt":"2020-12-13 10:34:17","quantity":1,"status":"new","offer":{"displayName":"KWC Лёгкий крем для лица","id":738,"externalId":"5796","xmlId":"5796","name":"KWC Лёгкий крем для лица","vatRate":"none","unit":{"code":"pc","name":"Штука","sym":"шт."}},"properties":[],"purchasePrice":0},{"markingCodes":[],"id":86875,"initialPrice":5940,"discountTotal":594,"vatRate":"none","createdAt":"2020-12-13 10:34:17","quantity":1,"status":"new","offer":{"displayName":"KWC Крем для кожи вокруг глаз","id":517,"externalId":"1813","xmlId":"1813","name":"KWC Крем для кожи вокруг глаз","vatRate":"none","unit":{"code":"pc","name":"Штука","sym":"шт."}},"properties":[],"purchasePrice":0},{"markingCodes":[],"id":86876,"initialPrice":449,"discountTotal":0,"vatRate":"none","createdAt":"2020-12-13 10:34:17","quantity":1,"status":"new","offer":{"displayName":"Набор пробников Термогеля для глубокого очищения","id":825,"externalId":"9606","xmlId":"9606","name":"Набор пробников Термогеля для глубокого очищения","vatRate":"none","unit":{"code":"pc","name":"Штука","sym":"шт."}},"properties":[],"purchasePrice":0},{"markingCodes":[],"id":86877,"initialPrice":230,"discountTotal":0,"vatRate":"none","createdAt":"2020-12-14 07:03:06","quantity":1,"status":"new","offer":{"displayName":"Банка для хранения коллагена","id":676,"externalId":"2906","xmlId":"2906","name":"Банка для хранения коллагена","vatRate":"none","unit":{"code":"pc","name":"Штука","sym":"шт."}},"properties":[],"purchasePrice":0},{"markingCodes":[],"id":86878,"initialPrice":2360,"discountTotal":0,"vatRate":"none","createdAt":"2020-12-14 07:03:06","quantity":1,"status":"new","offer":{"displayName":"KWC 3D Коллагеновая маска для лица и шеи СПЕЦЦЕНА!","id":933,"externalId":"14456","xmlId":"14456","name":"KWC 3D Коллагеновая маска для лица и шеи СПЕЦЦЕНА!","vatRate":"none","unit":{"code":"pc","name":"Штука","sym":"шт."}},"properties":[],"purchasePrice":0},{"markingCodes":[],"id":86879,"initialPrice":170,"discountTotal":0,"vatRate":"none","createdAt":"2020-12-14 07:03:06","quantity":1,"status":"new","offer":{"displayName":"Таблетница","id":621,"externalId":"2048","xmlId":"2048","name":"Таблетница","vatRate":"none","unit":{"code":"pc","name":"Штука","sym":"шт."}},"properties":[],"purchasePrice":0},{"markingCodes":[],"id":86880,"initialPrice":480,"discountTotal":0,"vatRate":"none","createdAt":"2020-12-14 07:03:06","quantity":1,"status":"new","offer":{"displayName":"KWC Матирующие салфетки","id":724,"externalId":"4583","xmlId":"4583","name":"KWC Матирующие салфетки","vatRate":"none","unit":{"code":"pc","name":"Штука","sym":"шт."}},"properties":[],"purchasePrice":0}],"payments":{},"fromApi":false,"length":0,"width":0,"height":0,"shipped":false,"customFields":[]}}
+    [response:protected] => Array
+        (
+            [success] => 1
+            [id] => 39292
+            [order] => Array
+                (
+                    [slug] => 39292
+                    [id] => 39292
+                    [number] => 39292C
+                    [externalId] => 39801
+                    [orderType] => eshop-individual
+                    [orderMethod] => app
+                    [countryIso] => RU
+                    [createdAt] => 2020-12-14 07:00:41
+                    [statusUpdatedAt] => 2020-12-14 07:00:41
+                    [summ] => 15400
+                    [totalSumm] => 15400
+                    [prepaySum] => 0
+                    [purchaseSumm] => 0
+                    [markDatetime] => 2020-12-14 07:00:41
+                    [firstName] => test
+                    [call] => 
+                    [expired] => 
+                    [customer] => Array
+                        (
+                            [type] => customer
+                            [id] => 15917
+                            [externalId] => 24623
+                            [isContact] => 
+                            [createdAt] => 2020-12-14 07:00:49
+                            [vip] => 
+                            [bad] => 
+                            [site] => www-kwc-japan-ru
+                            [tags] => Array
+                                (
+                                )
+
+                            [marginSumm] => 0
+                            [totalSumm] => 0
+                            [averageSumm] => 0
+                            [ordersCount] => 0
+                            [customFields] => Array
+                                (
+                                    [promokod] => 12345
+                                )
+
+                            [personalDiscount] => 0
+                            [address] => Array
+                                (
+                                    [id] => 15047
+                                    [countryIso] => RU
+                                )
+
+                            [segments] => Array
+                                (
+                                )
+
+                            [firstName] => test
+                            [email] => 
+                            [phones] => Array
+                                (
+                                )
+
+                        )
+
+                    [contact] => Array
+                        (
+                            [type] => customer
+                            [id] => 15917
+                            [externalId] => 24623
+                            [isContact] => 
+                            [createdAt] => 2020-12-14 07:00:49
+                            [vip] => 
+                            [bad] => 
+                            [site] => www-kwc-japan-ru
+                            [tags] => Array
+                                (
+                                )
+
+                            [marginSumm] => 0
+                            [totalSumm] => 0
+                            [averageSumm] => 0
+                            [ordersCount] => 0
+                            [customFields] => Array
+                                (
+                                    [promokod] => 12345
+                                )
+
+                            [personalDiscount] => 0
+                            [address] => Array
+                                (
+                                    [id] => 15047
+                                    [countryIso] => RU
+                                )
+
+                            [segments] => Array
+                                (
+                                )
+
+                            [firstName] => test
+                            [email] => 
+                            [phones] => Array
+                                (
+                                )
+
+                        )
+
+                    [contragent] => Array
+                        (
+                            [contragentType] => individual
+                        )
+
+                    [delivery] => Array
+                        (
+                            [code] => dost-port-kyr
+                            [cost] => 0
+                            [netCost] => 0
+                            [address] => Array
+                                (
+                                    [countryIso] => RU
+                                    [text] => Санкт-Петербург
+                                )
+
+                        )
+
+                    [site] => www-kwc-japan-ru
+                    [status] => new
+                    [items] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [markingCodes] => Array
+                                        (
+                                        )
+
+                                    [id] => 86874
+                                    [initialPrice] => 6700
+                                    [discountTotal] => 335
+                                    [vatRate] => none
+                                    [createdAt] => 2020-12-13 10:34:17
+                                    [quantity] => 1
+                                    [status] => new
+                                    [offer] => Array
+                                        (
+                                            [displayName] => KWC Лёгкий крем для лица
+                                            [id] => 738
+                                            [externalId] => 5796
+                                            [xmlId] => 5796
+                                            [name] => KWC Лёгкий крем для лица
+                                            [vatRate] => none
+                                            [unit] => Array
+                                                (
+                                                    [code] => pc
+                                                    [name] => Штука
+                                                    [sym] => шт.
+                                                )
+
+                                        )
+
+                                    [properties] => Array
+                                        (
+                                        )
+
+                                    [purchasePrice] => 0
+                                )
+
+                            [1] => Array
+                                (
+                                    [markingCodes] => Array
+                                        (
+                                        )
+
+                                    [id] => 86875
+                                    [initialPrice] => 5940
+                                    [discountTotal] => 594
+                                    [vatRate] => none
+                                    [createdAt] => 2020-12-13 10:34:17
+                                    [quantity] => 1
+                                    [status] => new
+                                    [offer] => Array
+                                        (
+                                            [displayName] => KWC Крем для кожи вокруг глаз
+                                            [id] => 517
+                                            [externalId] => 1813
+                                            [xmlId] => 1813
+                                            [name] => KWC Крем для кожи вокруг глаз
+                                            [vatRate] => none
+                                            [unit] => Array
+                                                (
+                                                    [code] => pc
+                                                    [name] => Штука
+                                                    [sym] => шт.
+                                                )
+
+                                        )
+
+                                    [properties] => Array
+                                        (
+                                        )
+
+                                    [purchasePrice] => 0
+                                )
+
+                            [2] => Array
+                                (
+                                    [markingCodes] => Array
+                                        (
+                                        )
+
+                                    [id] => 86876
+                                    [initialPrice] => 449
+                                    [discountTotal] => 0
+                                    [vatRate] => none
+                                    [createdAt] => 2020-12-13 10:34:17
+                                    [quantity] => 1
+                                    [status] => new
+                                    [offer] => Array
+                                        (
+                                            [displayName] => Набор пробников Термогеля для глубокого очищения
+                                            [id] => 825
+                                            [externalId] => 9606
+                                            [xmlId] => 9606
+                                            [name] => Набор пробников Термогеля для глубокого очищения
+                                            [vatRate] => none
+                                            [unit] => Array
+                                                (
+                                                    [code] => pc
+                                                    [name] => Штука
+                                                    [sym] => шт.
+                                                )
+
+                                        )
+
+                                    [properties] => Array
+                                        (
+                                        )
+
+                                    [purchasePrice] => 0
+                                )
+
+                            [3] => Array
+                                (
+                                    [markingCodes] => Array
+                                        (
+                                        )
+
+                                    [id] => 86877
+                                    [initialPrice] => 230
+                                    [discountTotal] => 0
+                                    [vatRate] => none
+                                    [createdAt] => 2020-12-14 07:03:06
+                                    [quantity] => 1
+                                    [status] => new
+                                    [offer] => Array
+                                        (
+                                            [displayName] => Банка для хранения коллагена
+                                            [id] => 676
+                                            [externalId] => 2906
+                                            [xmlId] => 2906
+                                            [name] => Банка для хранения коллагена
+                                            [vatRate] => none
+                                            [unit] => Array
+                                                (
+                                                    [code] => pc
+                                                    [name] => Штука
+                                                    [sym] => шт.
+                                                )
+
+                                        )
+
+                                    [properties] => Array
+                                        (
+                                        )
+
+                                    [purchasePrice] => 0
+                                )
+
+                            [4] => Array
+                                (
+                                    [markingCodes] => Array
+                                        (
+                                        )
+
+                                    [id] => 86878
+                                    [initialPrice] => 2360
+                                    [discountTotal] => 0
+                                    [vatRate] => none
+                                    [createdAt] => 2020-12-14 07:03:06
+                                    [quantity] => 1
+                                    [status] => new
+                                    [offer] => Array
+                                        (
+                                            [displayName] => KWC 3D Коллагеновая маска для лица и шеи СПЕЦЦЕНА!
+                                            [id] => 933
+                                            [externalId] => 14456
+                                            [xmlId] => 14456
+                                            [name] => KWC 3D Коллагеновая маска для лица и шеи СПЕЦЦЕНА!
+                                            [vatRate] => none
+                                            [unit] => Array
+                                                (
+                                                    [code] => pc
+                                                    [name] => Штука
+                                                    [sym] => шт.
+                                                )
+
+                                        )
+
+                                    [properties] => Array
+                                        (
+                                        )
+
+                                    [purchasePrice] => 0
+                                )
+
+                            [5] => Array
+                                (
+                                    [markingCodes] => Array
+                                        (
+                                        )
+
+                                    [id] => 86879
+                                    [initialPrice] => 170
+                                    [discountTotal] => 0
+                                    [vatRate] => none
+                                    [createdAt] => 2020-12-14 07:03:06
+                                    [quantity] => 1
+                                    [status] => new
+                                    [offer] => Array
+                                        (
+                                            [displayName] => Таблетница
+                                            [id] => 621
+                                            [externalId] => 2048
+                                            [xmlId] => 2048
+                                            [name] => Таблетница
+                                            [vatRate] => none
+                                            [unit] => Array
+                                                (
+                                                    [code] => pc
+                                                    [name] => Штука
+                                                    [sym] => шт.
+                                                )
+
+                                        )
+
+                                    [properties] => Array
+                                        (
+                                        )
+
+                                    [purchasePrice] => 0
+                                )
+
+                            [6] => Array
+                                (
+                                    [markingCodes] => Array
+                                        (
+                                        )
+
+                                    [id] => 86880
+                                    [initialPrice] => 480
+                                    [discountTotal] => 0
+                                    [vatRate] => none
+                                    [createdAt] => 2020-12-14 07:03:06
+                                    [quantity] => 1
+                                    [status] => new
+                                    [offer] => Array
+                                        (
+                                            [displayName] => KWC Матирующие салфетки
+                                            [id] => 724
+                                            [externalId] => 4583
+                                            [xmlId] => 4583
+                                            [name] => KWC Матирующие салфетки
+                                            [vatRate] => none
+                                            [unit] => Array
+                                                (
+                                                    [code] => pc
+                                                    [name] => Штука
+                                                    [sym] => шт.
+                                                )
+
+                                        )
+
+                                    [properties] => Array
+                                        (
+                                        )
+
+                                    [purchasePrice] => 0
+                                )
+
+                        )
+
+                    [payments] => Array
+                        (
+                        )
+
+                    [fromApi] => 
+                    [length] => 0
+                    [width] => 0
+                    [height] => 0
+                    [shipped] => 
+                    [customFields] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+)
+
+)
+
+Array
+(
+    [date] => 2020-12-14 07:08:34
+    [data] => RetailCrm\Response\ApiResponse Object
+(
+    [statusCode:protected] => 200
+    [rawResponse:protected] => {"success":true,"id":39292,"order":{"slug":39292,"id":39292,"number":"39292C","externalId":"39801","orderType":"eshop-individual","orderMethod":"app","countryIso":"RU","createdAt":"2020-12-14 07:00:41","statusUpdatedAt":"2020-12-14 07:00:41","summ":22680,"totalSumm":22680,"prepaySum":0,"purchaseSumm":0,"markDatetime":"2020-12-14 07:00:41","firstName":"test","call":false,"expired":false,"customer":{"type":"customer","id":15917,"externalId":"24623","isContact":false,"createdAt":"2020-12-14 07:00:49","vip":false,"bad":false,"site":"www-kwc-japan-ru","tags":[],"marginSumm":0,"totalSumm":0,"averageSumm":0,"ordersCount":0,"customFields":{"promokod":"12345"},"personalDiscount":0,"address":{"id":15047,"countryIso":"RU"},"segments":[],"firstName":"test","email":"","phones":[]},"contact":{"type":"customer","id":15917,"externalId":"24623","isContact":false,"createdAt":"2020-12-14 07:00:49","vip":false,"bad":false,"site":"www-kwc-japan-ru","tags":[],"marginSumm":0,"totalSumm":0,"averageSumm":0,"ordersCount":0,"customFields":{"promokod":"12345"},"personalDiscount":0,"address":{"id":15047,"countryIso":"RU"},"segments":[],"firstName":"test","email":"","phones":[]},"contragent":{"contragentType":"individual"},"delivery":{"code":"dost-port-kyr","cost":0,"netCost":0,"address":{"countryIso":"RU","text":"Санкт-Петербург"}},"site":"www-kwc-japan-ru","status":"new","items":[{"markingCodes":[],"id":86874,"initialPrice":6700,"discountTotal":335,"vatRate":"none","createdAt":"2020-12-13 10:34:17","quantity":1,"status":"new","offer":{"displayName":"KWC Лёгкий крем для лица","id":738,"externalId":"5796","xmlId":"5796","name":"KWC Лёгкий крем для лица","vatRate":"none","unit":{"code":"pc","name":"Штука","sym":"шт."}},"properties":[],"purchasePrice":0},{"markingCodes":[],"id":86875,"initialPrice":5940,"discountTotal":594,"vatRate":"none","createdAt":"2020-12-13 10:34:17","quantity":1,"status":"new","offer":{"displayName":"KWC Крем для кожи вокруг глаз","id":517,"externalId":"1813","xmlId":"1813","name":"KWC Крем для кожи вокруг глаз","vatRate":"none","unit":{"code":"pc","name":"Штука","sym":"шт."}},"properties":[],"purchasePrice":0},{"markingCodes":[],"id":86876,"initialPrice":449,"discountTotal":0,"vatRate":"none","createdAt":"2020-12-13 10:34:17","quantity":1,"status":"new","offer":{"displayName":"Набор пробников Термогеля для глубокого очищения","id":825,"externalId":"9606","xmlId":"9606","name":"Набор пробников Термогеля для глубокого очищения","vatRate":"none","unit":{"code":"pc","name":"Штука","sym":"шт."}},"properties":[],"purchasePrice":0},{"markingCodes":[],"id":86877,"initialPrice":230,"discountTotal":0,"vatRate":"none","createdAt":"2020-12-14 07:03:06","quantity":1,"status":"new","offer":{"displayName":"Банка для хранения коллагена","id":676,"externalId":"2906","xmlId":"2906","name":"Банка для хранения коллагена","vatRate":"none","unit":{"code":"pc","name":"Штука","sym":"шт."}},"properties":[],"purchasePrice":0},{"markingCodes":[],"id":86878,"initialPrice":2360,"discountTotal":0,"vatRate":"none","createdAt":"2020-12-14 07:03:06","quantity":1,"status":"new","offer":{"displayName":"KWC 3D Коллагеновая маска для лица и шеи СПЕЦЦЕНА!","id":933,"externalId":"14456","xmlId":"14456","name":"KWC 3D Коллагеновая маска для лица и шеи СПЕЦЦЕНА!","vatRate":"none","unit":{"code":"pc","name":"Штука","sym":"шт."}},"properties":[],"purchasePrice":0},{"markingCodes":[],"id":86879,"initialPrice":170,"discountTotal":0,"vatRate":"none","createdAt":"2020-12-14 07:03:06","quantity":1,"status":"new","offer":{"displayName":"Таблетница","id":621,"externalId":"2048","xmlId":"2048","name":"Таблетница","vatRate":"none","unit":{"code":"pc","name":"Штука","sym":"шт."}},"properties":[],"purchasePrice":0},{"markingCodes":[],"id":86880,"initialPrice":480,"discountTotal":0,"vatRate":"none","createdAt":"2020-12-14 07:03:06","quantity":1,"status":"new","offer":{"displayName":"KWC Матирующие салфетки","id":724,"externalId":"4583","xmlId":"4583","name":"KWC Матирующие салфетки","vatRate":"none","unit":{"code":"pc","name":"Штука","sym":"шт."}},"properties":[],"purchasePrice":0},{"markingCodes":[],"id":86881,"initialPrice":7280,"discountTotal":0,"vatRate":"none","createdAt":"2020-12-14 07:08:28","quantity":1,"status":"new","offer":{"displayName":"KWC Глюкозамин и Хондроитин: акция 2+1!","id":992,"externalId":"18906","xmlId":"18906","name":"KWC Глюкозамин и Хондроитин: акция 2+1!","vatRate":"none","unit":{"code":"pc","name":"Штука","sym":"шт."}},"properties":[],"purchasePrice":0}],"payments":{},"fromApi":false,"length":0,"width":0,"height":0,"shipped":false,"customFields":[]}}
+    [response:protected] => Array
+        (
+            [success] => 1
+            [id] => 39292
+            [order] => Array
+                (
+                    [slug] => 39292
+                    [id] => 39292
+                    [number] => 39292C
+                    [externalId] => 39801
+                    [orderType] => eshop-individual
+                    [orderMethod] => app
+                    [countryIso] => RU
+                    [createdAt] => 2020-12-14 07:00:41
+                    [statusUpdatedAt] => 2020-12-14 07:00:41
+                    [summ] => 22680
+                    [totalSumm] => 22680
+                    [prepaySum] => 0
+                    [purchaseSumm] => 0
+                    [markDatetime] => 2020-12-14 07:00:41
+                    [firstName] => test
+                    [call] => 
+                    [expired] => 
+                    [customer] => Array
+                        (
+                            [type] => customer
+                            [id] => 15917
+                            [externalId] => 24623
+                            [isContact] => 
+                            [createdAt] => 2020-12-14 07:00:49
+                            [vip] => 
+                            [bad] => 
+                            [site] => www-kwc-japan-ru
+                            [tags] => Array
+                                (
+                                )
+
+                            [marginSumm] => 0
+                            [totalSumm] => 0
+                            [averageSumm] => 0
+                            [ordersCount] => 0
+                            [customFields] => Array
+                                (
+                                    [promokod] => 12345
+                                )
+
+                            [personalDiscount] => 0
+                            [address] => Array
+                                (
+                                    [id] => 15047
+                                    [countryIso] => RU
+                                )
+
+                            [segments] => Array
+                                (
+                                )
+
+                            [firstName] => test
+                            [email] => 
+                            [phones] => Array
+                                (
+                                )
+
+                        )
+
+                    [contact] => Array
+                        (
+                            [type] => customer
+                            [id] => 15917
+                            [externalId] => 24623
+                            [isContact] => 
+                            [createdAt] => 2020-12-14 07:00:49
+                            [vip] => 
+                            [bad] => 
+                            [site] => www-kwc-japan-ru
+                            [tags] => Array
+                                (
+                                )
+
+                            [marginSumm] => 0
+                            [totalSumm] => 0
+                            [averageSumm] => 0
+                            [ordersCount] => 0
+                            [customFields] => Array
+                                (
+                                    [promokod] => 12345
+                                )
+
+                            [personalDiscount] => 0
+                            [address] => Array
+                                (
+                                    [id] => 15047
+                                    [countryIso] => RU
+                                )
+
+                            [segments] => Array
+                                (
+                                )
+
+                            [firstName] => test
+                            [email] => 
+                            [phones] => Array
+                                (
+                                )
+
+                        )
+
+                    [contragent] => Array
+                        (
+                            [contragentType] => individual
+                        )
+
+                    [delivery] => Array
+                        (
+                            [code] => dost-port-kyr
+                            [cost] => 0
+                            [netCost] => 0
+                            [address] => Array
+                                (
+                                    [countryIso] => RU
+                                    [text] => Санкт-Петербург
+                                )
+
+                        )
+
+                    [site] => www-kwc-japan-ru
+                    [status] => new
+                    [items] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [markingCodes] => Array
+                                        (
+                                        )
+
+                                    [id] => 86874
+                                    [initialPrice] => 6700
+                                    [discountTotal] => 335
+                                    [vatRate] => none
+                                    [createdAt] => 2020-12-13 10:34:17
+                                    [quantity] => 1
+                                    [status] => new
+                                    [offer] => Array
+                                        (
+                                            [displayName] => KWC Лёгкий крем для лица
+                                            [id] => 738
+                                            [externalId] => 5796
+                                            [xmlId] => 5796
+                                            [name] => KWC Лёгкий крем для лица
+                                            [vatRate] => none
+                                            [unit] => Array
+                                                (
+                                                    [code] => pc
+                                                    [name] => Штука
+                                                    [sym] => шт.
+                                                )
+
+                                        )
+
+                                    [properties] => Array
+                                        (
+                                        )
+
+                                    [purchasePrice] => 0
+                                )
+
+                            [1] => Array
+                                (
+                                    [markingCodes] => Array
+                                        (
+                                        )
+
+                                    [id] => 86875
+                                    [initialPrice] => 5940
+                                    [discountTotal] => 594
+                                    [vatRate] => none
+                                    [createdAt] => 2020-12-13 10:34:17
+                                    [quantity] => 1
+                                    [status] => new
+                                    [offer] => Array
+                                        (
+                                            [displayName] => KWC Крем для кожи вокруг глаз
+                                            [id] => 517
+                                            [externalId] => 1813
+                                            [xmlId] => 1813
+                                            [name] => KWC Крем для кожи вокруг глаз
+                                            [vatRate] => none
+                                            [unit] => Array
+                                                (
+                                                    [code] => pc
+                                                    [name] => Штука
+                                                    [sym] => шт.
+                                                )
+
+                                        )
+
+                                    [properties] => Array
+                                        (
+                                        )
+
+                                    [purchasePrice] => 0
+                                )
+
+                            [2] => Array
+                                (
+                                    [markingCodes] => Array
+                                        (
+                                        )
+
+                                    [id] => 86876
+                                    [initialPrice] => 449
+                                    [discountTotal] => 0
+                                    [vatRate] => none
+                                    [createdAt] => 2020-12-13 10:34:17
+                                    [quantity] => 1
+                                    [status] => new
+                                    [offer] => Array
+                                        (
+                                            [displayName] => Набор пробников Термогеля для глубокого очищения
+                                            [id] => 825
+                                            [externalId] => 9606
+                                            [xmlId] => 9606
+                                            [name] => Набор пробников Термогеля для глубокого очищения
+                                            [vatRate] => none
+                                            [unit] => Array
+                                                (
+                                                    [code] => pc
+                                                    [name] => Штука
+                                                    [sym] => шт.
+                                                )
+
+                                        )
+
+                                    [properties] => Array
+                                        (
+                                        )
+
+                                    [purchasePrice] => 0
+                                )
+
+                            [3] => Array
+                                (
+                                    [markingCodes] => Array
+                                        (
+                                        )
+
+                                    [id] => 86877
+                                    [initialPrice] => 230
+                                    [discountTotal] => 0
+                                    [vatRate] => none
+                                    [createdAt] => 2020-12-14 07:03:06
+                                    [quantity] => 1
+                                    [status] => new
+                                    [offer] => Array
+                                        (
+                                            [displayName] => Банка для хранения коллагена
+                                            [id] => 676
+                                            [externalId] => 2906
+                                            [xmlId] => 2906
+                                            [name] => Банка для хранения коллагена
+                                            [vatRate] => none
+                                            [unit] => Array
+                                                (
+                                                    [code] => pc
+                                                    [name] => Штука
+                                                    [sym] => шт.
+                                                )
+
+                                        )
+
+                                    [properties] => Array
+                                        (
+                                        )
+
+                                    [purchasePrice] => 0
+                                )
+
+                            [4] => Array
+                                (
+                                    [markingCodes] => Array
+                                        (
+                                        )
+
+                                    [id] => 86878
+                                    [initialPrice] => 2360
+                                    [discountTotal] => 0
+                                    [vatRate] => none
+                                    [createdAt] => 2020-12-14 07:03:06
+                                    [quantity] => 1
+                                    [status] => new
+                                    [offer] => Array
+                                        (
+                                            [displayName] => KWC 3D Коллагеновая маска для лица и шеи СПЕЦЦЕНА!
+                                            [id] => 933
+                                            [externalId] => 14456
+                                            [xmlId] => 14456
+                                            [name] => KWC 3D Коллагеновая маска для лица и шеи СПЕЦЦЕНА!
+                                            [vatRate] => none
+                                            [unit] => Array
+                                                (
+                                                    [code] => pc
+                                                    [name] => Штука
+                                                    [sym] => шт.
+                                                )
+
+                                        )
+
+                                    [properties] => Array
+                                        (
+                                        )
+
+                                    [purchasePrice] => 0
+                                )
+
+                            [5] => Array
+                                (
+                                    [markingCodes] => Array
+                                        (
+                                        )
+
+                                    [id] => 86879
+                                    [initialPrice] => 170
+                                    [discountTotal] => 0
+                                    [vatRate] => none
+                                    [createdAt] => 2020-12-14 07:03:06
+                                    [quantity] => 1
+                                    [status] => new
+                                    [offer] => Array
+                                        (
+                                            [displayName] => Таблетница
+                                            [id] => 621
+                                            [externalId] => 2048
+                                            [xmlId] => 2048
+                                            [name] => Таблетница
+                                            [vatRate] => none
+                                            [unit] => Array
+                                                (
+                                                    [code] => pc
+                                                    [name] => Штука
+                                                    [sym] => шт.
+                                                )
+
+                                        )
+
+                                    [properties] => Array
+                                        (
+                                        )
+
+                                    [purchasePrice] => 0
+                                )
+
+                            [6] => Array
+                                (
+                                    [markingCodes] => Array
+                                        (
+                                        )
+
+                                    [id] => 86880
+                                    [initialPrice] => 480
+                                    [discountTotal] => 0
+                                    [vatRate] => none
+                                    [createdAt] => 2020-12-14 07:03:06
+                                    [quantity] => 1
+                                    [status] => new
+                                    [offer] => Array
+                                        (
+                                            [displayName] => KWC Матирующие салфетки
+                                            [id] => 724
+                                            [externalId] => 4583
+                                            [xmlId] => 4583
+                                            [name] => KWC Матирующие салфетки
+                                            [vatRate] => none
+                                            [unit] => Array
+                                                (
+                                                    [code] => pc
+                                                    [name] => Штука
+                                                    [sym] => шт.
+                                                )
+
+                                        )
+
+                                    [properties] => Array
+                                        (
+                                        )
+
+                                    [purchasePrice] => 0
+                                )
+
+                            [7] => Array
+                                (
+                                    [markingCodes] => Array
+                                        (
+                                        )
+
+                                    [id] => 86881
+                                    [initialPrice] => 7280
+                                    [discountTotal] => 0
+                                    [vatRate] => none
+                                    [createdAt] => 2020-12-14 07:08:28
+                                    [quantity] => 1
+                                    [status] => new
+                                    [offer] => Array
+                                        (
+                                            [displayName] => KWC Глюкозамин и Хондроитин: акция 2+1!
+                                            [id] => 992
+                                            [externalId] => 18906
+                                            [xmlId] => 18906
+                                            [name] => KWC Глюкозамин и Хондроитин: акция 2+1!
+                                            [vatRate] => none
+                                            [unit] => Array
+                                                (
+                                                    [code] => pc
+                                                    [name] => Штука
+                                                    [sym] => шт.
+                                                )
+
+                                        )
+
+                                    [properties] => Array
+                                        (
+                                        )
+
+                                    [purchasePrice] => 0
+                                )
+
+                        )
+
+                    [payments] => Array
+                        (
+                        )
+
+                    [fromApi] => 
+                    [length] => 0
+                    [width] => 0
+                    [height] => 0
+                    [shipped] => 
+                    [customFields] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+)
+
+)
+
